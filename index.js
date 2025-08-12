@@ -1,23 +1,17 @@
-let nome = "Emanuel";
-let xp = 4000;
-let nivel = "";
+let userName = getFirstName("Emanuel-vieira", "-");
+console.log("Seja bem-vindo " + userName);
 
-if (xp <= 1000) {
-  nivel = "Ferro";
-} else if (xp >= 1001 && xp <= 2000) {
-  nivel = "Bronze";
-} else if (xp >= 2001 && xp <= 5000) {
-  nivel = "Prata";
-} else if (xp >= 5001 && xp <= 7000) {
-  nivel = "Ouro";
-} else if (xp >= 7001 && xp <= 8000) {
-  nivel = "Platina";
-} else if (xp >= 8001 && xp <= 9000) {
-  nivel = "Ascendente";
-} else if (xp >= 9001 && xp <= 10000) {
-  nivel = "Imortal";
-} else if (xp >= 10001) {
-  nivel = "Radiante";
+userName = getFirstName("David vieira", " ");
+console.log("Seja bem-vindo " + userName);
+function getFirstName(name, teste){
+  let firstName = name.split(teste)[1]
+  return firstName;
 }
 
-console.log(`O Herói de nome ${nome} está no nível de ${nivel} e está com ${xp} de XP.`);
+function getLastName(name, splitChar){
+  let parte = name.split(splitChar);
+  let lastName = parte[parte.length - 1];
+  return lastName;
+}
+let userLastName = getLastName("Emanuel-vieira-tulio", "-");
+console.log("ultimo nome: " + userLastName)

@@ -33,5 +33,12 @@ Cada herói possui:
 - `tipo` (mago, guerreiro, monge, ninja)  
 
 O método `atacar()` retorna uma frase descrevendo a ação do herói.
+---
+3. Manipulação de Strings - Nome e Sobrenome
 
-🔹 Exemplo de saída:
+Arquivo: `index.js`
+
+Funções que trabalham com nomes de usuário, permitindo extrair o **primeiro nome** e o **último nome** a partir de diferentes separadores (`-`, espaço, etc.).
+
+- `getFirstName(nome, separador)` → retorna o primeiro nome
+- `getLastName(nome, separador)` → retorna o último nome

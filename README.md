@@ -8,7 +8,7 @@ Aqui estão duas soluções que praticam **classes, objetos, funções e condici
 
 ## 📌 1. Calculadora de Partidas Rankeadas
 
-Arquivo: `calculadoraRank.js`
+Arquivo: `calc.js`
 
 Função que calcula o saldo de vitórias e derrotas de um jogador e classifica o nível do herói com base na quantidade de vitórias:
 

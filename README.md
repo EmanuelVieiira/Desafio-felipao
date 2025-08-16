@@ -33,8 +33,10 @@ Cada herói possui:
 - `tipo` (mago, guerreiro, monge, ninja)  
 
 O método `atacar()` retorna uma frase descrevendo a ação do herói.
+
 ---
-3. Manipulação de Strings - Nome e Sobrenome
+
+## 📌 3. Manipulação de Strings - Nome e Sobrenome
 
 Arquivo: `index.js`
 
